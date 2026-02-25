@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="620" viewBox="0 0 980 620">
+  <rect width="980" height="620" fill="#202730"/>
+  <text x="40" y="60" font-size="34" font-family="Arial" fill="#dce8f6">진술 대조 시트 (로그 vs 증언)</text>
+
+  <rect x="40" y="90" width="430" height="490" rx="12" fill="#10161c" stroke="#4b5a6d"/>
+  <text x="64" y="136" font-size="28" font-family="Arial" fill="#b8c9de">시스템 로그</text>
+  <text x="64" y="186" font-size="24" font-family="Arial" fill="#dbe9f8">#41 20:41 북문 개방</text>
+  <text x="64" y="230" font-size="24" font-family="Arial" fill="#dbe9f8">#47 20:47 연구실 카드 = 인턴</text>
+  <text x="64" y="274" font-size="24" font-family="Arial" fill="#dbe9f8">#49 20:49 정문 경비 90초 공백</text>
+
+  <text x="64" y="360" font-size="22" font-family="Arial" fill="#90a8c2">규칙: 충돌 시각이 더 이른 진술자를 먼저 표기</text>
+
+  <rect x="510" y="90" width="430" height="490" rx="12" fill="#f2ead8" stroke="#8b7a58"/>
+  <text x="534" y="136" font-size="28" font-family="Arial" fill="#2f2a20">진술서</text>
+  <text x="534" y="186" font-size="23" font-family="Arial" fill="#2f2a20">경비원: 20:40~20:55 정문을 비우지 않았다.</text>
+  <text x="534" y="232" font-size="23" font-family="Arial" fill="#2f2a20">인턴: 오늘 연구실 출입카드를 사용하지 않았다.</text>
+  <text x="534" y="278" font-size="23" font-family="Arial" fill="#2f2a20">비서: 20:43 프린터 토너를 교체했다.</text>
+  <text x="534" y="324" font-size="23" font-family="Arial" fill="#2f2a20">청소원: 20:50 서쪽 복도를 청소했다.</text>
+
+  <rect x="534" y="380" width="380" height="140" rx="10" fill="#2b2420"/>
+  <text x="556" y="430" font-size="24" font-family="Arial" fill="#f1d18f">입력 형식 예시: gi</text>
+  <text x="556" y="468" font-size="22" font-family="Arial" fill="#d8bf8a">(guard + intern)</text>
+</svg>

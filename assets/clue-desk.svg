@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="620" viewBox="0 0 980 620">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#2f2a24"/>
+      <stop offset="1" stop-color="#1f1a16"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="980" height="620" fill="url(#bg)"/>
+  <text x="34" y="52" fill="#f4e4bf" font-size="34" font-family="Arial">찢긴 메모 복원본</text>
+
+  <rect x="34" y="78" width="912" height="396" rx="12" fill="#d8c39a" stroke="#5a4a33"/>
+
+  <rect x="58" y="104" width="420" height="160" rx="10" fill="#e9d8b2"/>
+  <text x="76" y="148" fill="#2c2417" font-size="30" font-family="Arial">창문쪽 보관함 식별코드: 9</text>
+  <text x="76" y="188" fill="#2c2417" font-size="24" font-family="Arial">붉은 핀 아래 서명 있음</text>
+
+  <rect x="502" y="104" width="420" height="160" rx="10" fill="#e2cd9f"/>
+  <text x="520" y="148" fill="#2c2417" font-size="30" font-family="Arial">계단쪽 보관함 식별코드: 7</text>
+  <text x="520" y="188" fill="#2c2417" font-size="24" font-family="Arial">파란 핀, 열쇠 없음</text>
+
+  <rect x="58" y="286" width="420" height="160" rx="10" fill="#dbc18f"/>
+  <text x="76" y="330" fill="#2c2417" font-size="30" font-family="Arial">복도쪽 보관함 식별코드: 4</text>
+  <text x="76" y="370" fill="#2c2417" font-size="24" font-family="Arial">검정 핀, 봉인 훼손 흔적</text>
+
+  <rect x="502" y="286" width="420" height="160" rx="10" fill="#e7d3a5"/>
+  <text x="520" y="330" fill="#2c2417" font-size="30" font-family="Arial">비상구쪽 보관함 식별코드: 1</text>
+  <text x="520" y="370" fill="#2c2417" font-size="24" font-family="Arial">녹색 핀, 임시 라벨 부착</text>
+
+  <rect x="34" y="492" width="610" height="102" rx="10" fill="#2b2320"/>
+  <text x="56" y="530" fill="#f2d190" font-size="23" font-family="Arial">관리 규정 발췌: 코드값은 함의 식별번호이며,</text>
+  <text x="56" y="564" fill="#f2d190" font-size="23" font-family="Arial">원본 보고서 정렬 순서(시작점 기준 반시계)로 결합한다.</text>
+
+  <rect x="666" y="492" width="280" height="102" rx="10" fill="#201a17"/>
+  <text x="680" y="523" fill="#efd8a6" font-size="18" font-family="Arial">현장 배치 스케치 (위=북)</text>
+  <rect x="680" y="534" width="250" height="48" rx="6" fill="#d9c8a6"/>
+  <text x="690" y="553" fill="#2c2417" font-size="15" font-family="Arial">위: 창문 / 좌: 복도</text>
+  <text x="690" y="573" fill="#2c2417" font-size="15" font-family="Arial">우: 계단 / 아래: 비상구</text>
+</svg>

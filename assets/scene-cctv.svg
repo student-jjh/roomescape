@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="360" viewBox="0 0 960 360">
+  <rect width="960" height="360" fill="#1d2530"/>
+  <rect x="70" y="70" width="380" height="220" rx="12" fill="#111821"/>
+  <rect x="510" y="70" width="380" height="220" rx="12" fill="#0f161d"/>
+  <text x="92" y="118" fill="#b4c7dd" font-family="Arial" font-size="30">정전 로그</text>
+  <text x="534" y="118" fill="#b4c7dd" font-family="Arial" font-size="30">연결도</text>
+  <circle cx="620" cy="180" r="30" fill="#33557a"/>
+  <circle cx="710" cy="180" r="30" fill="#33557a"/>
+  <circle cx="710" cy="240" r="30" fill="#33557a"/>
+  <circle cx="800" cy="240" r="30" fill="#33557a"/>
+</svg>

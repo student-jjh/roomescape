@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="360" viewBox="0 0 960 360">
+  <defs><linearGradient id="v" x1="0" x2="1" y1="0" y2="1"><stop offset="0" stop-color="#1d1f25"/><stop offset="1" stop-color="#101216"/></linearGradient></defs>
+  <rect width="960" height="360" fill="url(#v)"/>
+  <circle cx="480" cy="180" r="120" fill="#3b414b"/>
+  <circle cx="480" cy="180" r="84" fill="#272d35"/>
+  <rect x="450" y="164" width="60" height="32" rx="6" fill="#111"/>
+  <text x="56" y="66" fill="#d3dbe8" font-family="Arial" font-size="32">출구 잠금실</text>
+</svg>

@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="620" viewBox="0 0 980 620">
+  <rect width="980" height="620" fill="#1e262f"/>
+  <text x="42" y="62" font-size="34" font-family="Arial" fill="#d8e4f2">CCTV 정전 로그 + 복도 연결도</text>
+
+  <rect x="42" y="96" width="430" height="486" rx="12" fill="#111820" stroke="#4d5f74"/>
+  <text x="66" y="142" font-size="28" font-family="Arial" fill="#b8cbe2">정전 시각 로그</text>
+  <text x="66" y="190" font-size="24" font-family="Arial" fill="#dce9f6">Cam-1 : 20:50</text>
+  <text x="66" y="230" font-size="24" font-family="Arial" fill="#dce9f6">Cam-2 : 20:44</text>
+  <text x="66" y="270" font-size="24" font-family="Arial" fill="#dce9f6">Cam-3 : 20:52</text>
+  <text x="66" y="310" font-size="24" font-family="Arial" fill="#dce9f6">Cam-4 : 20:46</text>
+
+  <text x="66" y="378" font-size="22" font-family="Arial" fill="#90a8c2">규칙 A: 시작 카메라는 가장 이른 정전 시각</text>
+  <text x="66" y="414" font-size="22" font-family="Arial" fill="#90a8c2">규칙 B: 이동 간격은 정확히 2분</text>
+  <text x="66" y="450" font-size="22" font-family="Arial" fill="#90a8c2">규칙 C: 연결되지 않은 카메라로 점프 불가</text>
+
+  <rect x="510" y="96" width="426" height="486" rx="12" fill="#0f141a" stroke="#4d5f74"/>
+  <text x="534" y="142" font-size="28" font-family="Arial" fill="#b8cbe2">복도 연결도</text>
+
+  <circle cx="590" cy="250" r="42" fill="#2e4f73"/>
+  <text x="577" y="258" font-size="28" font-family="Arial" fill="#f6fbff">2</text>
+
+  <circle cx="720" cy="250" r="42" fill="#2e4f73"/>
+  <text x="707" y="258" font-size="28" font-family="Arial" fill="#f6fbff">4</text>
+
+  <circle cx="720" cy="390" r="42" fill="#2e4f73"/>
+  <text x="707" y="398" font-size="28" font-family="Arial" fill="#f6fbff">1</text>
+
+  <circle cx="850" cy="390" r="42" fill="#2e4f73"/>
+  <text x="837" y="398" font-size="28" font-family="Arial" fill="#f6fbff">3</text>
+
+  <line x1="632" y1="250" x2="678" y2="250" stroke="#89a4c2" stroke-width="6"/>
+  <line x1="720" y1="292" x2="720" y2="348" stroke="#89a4c2" stroke-width="6"/>
+  <line x1="762" y1="390" x2="808" y2="390" stroke="#89a4c2" stroke-width="6"/>
+
+  <text x="534" y="500" font-size="22" font-family="Arial" fill="#90a8c2">시작: 북문 근접 Cam-2</text>
+  <text x="534" y="534" font-size="22" font-family="Arial" fill="#90a8c2">탈출: 남동 출구 근접 Cam-3</text>
+</svg>

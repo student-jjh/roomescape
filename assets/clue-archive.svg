@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="620" viewBox="0 0 980 620">
+  <rect width="980" height="620" fill="#2b2420"/>
+  <rect x="42" y="40" width="896" height="540" rx="16" fill="#d9c7a4"/>
+  <text x="70" y="88" font-size="34" font-family="Arial" fill="#2b2116">증거 보관함 관리표</text>
+
+  <rect x="70" y="120" width="840" height="360" rx="10" fill="#f4ead3" stroke="#846f4e"/>
+  <text x="96" y="170" font-size="25" font-family="Arial" fill="#2d2418">A함 | 담당: 경비원 | 파일번호: 58</text>
+  <text x="96" y="225" font-size="25" font-family="Arial" fill="#2d2418">B함 | 담당: 인턴   | 파일번호: 62</text>
+  <text x="96" y="280" font-size="25" font-family="Arial" fill="#2d2418">C함 | 담당: 비서   | 파일번호: 14</text>
+  <text x="96" y="335" font-size="25" font-family="Arial" fill="#2d2418">D함 | 담당: 청소원 | 파일번호: 86</text>
+  <text x="96" y="410" font-size="24" font-family="Arial" fill="#3e3222">주의: 파일번호는 자리 바꾸지 말 것.</text>
+
+  <rect x="90" y="502" width="800" height="58" rx="10" fill="#31261d"/>
+  <text x="112" y="540" font-size="27" font-family="Arial" fill="#f1d28e">메모: "거짓말쟁이 둘의 보관함만 골라 A->D 순서로 연결"</text>
+</svg>

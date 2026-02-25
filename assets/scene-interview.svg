@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="360" viewBox="0 0 960 360">
+  <rect width="960" height="360" fill="#2a2b30"/>
+  <rect x="70" y="70" width="360" height="220" rx="12" fill="#111318"/>
+  <rect x="530" y="70" width="360" height="220" rx="12" fill="#e0d4ba"/>
+  <text x="94" y="120" fill="#c3d3e8" font-family="Arial" font-size="30">시스템 로그</text>
+  <text x="552" y="120" fill="#2b2419" font-family="Arial" font-size="30">진술서</text>
+</svg>

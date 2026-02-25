@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="360" viewBox="0 0 960 360">
+  <rect width="960" height="360" fill="#2d241f"/>
+  <rect x="80" y="60" width="800" height="240" rx="12" fill="#d8c5a0"/>
+  <text x="104" y="112" fill="#2b2015" font-family="Arial" font-size="32">증거 보관함 구역</text>
+  <rect x="110" y="150" width="740" height="120" fill="#f2e5c9"/>
+</svg>

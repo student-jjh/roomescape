@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="620" viewBox="0 0 980 620">
+  <rect width="980" height="620" fill="#1b1a20"/>
+  <rect x="60" y="50" width="860" height="520" rx="14" fill="#e5d9b9"/>
+  <text x="92" y="102" font-size="34" font-family="Arial" fill="#2a2218">최종 잠금 규칙 카드</text>
+
+  <rect x="92" y="130" width="796" height="292" rx="12" fill="#f3ebd4" stroke="#907e59"/>
+  <text x="120" y="182" font-size="28" font-family="Arial" fill="#30281d">1) (Delta 3번째 + Omega 1번째) % 10</text>
+  <text x="120" y="232" font-size="28" font-family="Arial" fill="#30281d">2) Sigma 3번째 - Psi 글자수</text>
+  <text x="120" y="282" font-size="28" font-family="Arial" fill="#30281d">3) (Kappa 각 자리 합) % 10</text>
+  <text x="120" y="332" font-size="28" font-family="Arial" fill="#30281d">4) (Omega 마지막 + Delta 마지막) % 10</text>
+
+  <rect x="92" y="446" width="796" height="96" rx="10" fill="#31281f"/>
+  <text x="122" y="500" font-size="28" font-family="Arial" fill="#f2d594">주의: 토큰을 잘못 읽으면 4자리 전체가 틀립니다.</text>
+</svg>
