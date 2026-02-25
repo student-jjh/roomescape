@@ -46,13 +46,6 @@
 ## 배포
 - Live Demo: (배포 후 링크 추가 예정)
 
-## GitHub Pages 배포 방법
-1. 저장소를 GitHub에 push
-2. GitHub 저장소 `Settings` -> `Pages`
-3. `Build and deployment`
-   - `Source`: `Deploy from a branch`
-   - `Branch`: `main` / `/(root)`
-4. 저장 후 배포 완료 URL 확인
 
 ## 플레이 팁
 - 각 챕터 단서는 다음 챕터 계산의 입력값이 됩니다.
@@ -61,4 +54,3 @@
 
 ## 라이선스
 개인 학습/포트폴리오 용도로 제작되었습니다.
-(필요 시 라이선스 문구 추가)
