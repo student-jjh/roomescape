@@ -3,31 +3,148 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>사건 17호 - 추리 방탈출</title>
-    <link rel="stylesheet" href="./style.css" />
+    <title>방탈출 게임 로비</title>
+    <style>
+      :root {
+        --bg: #111316;
+        --panel: #1b2027;
+        --panel-2: #232a33;
+        --line: #364152;
+        --text: #eceff4;
+        --muted: #aeb7c3;
+        --accent: #d8b376;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        min-height: 100vh;
+        color: var(--text);
+        background:
+          radial-gradient(circle at 15% 10%, #243243 0, transparent 42%),
+          radial-gradient(circle at 90% 20%, #3a2a2a 0, transparent 35%),
+          linear-gradient(155deg, #0d0f12, #151b24);
+        font-family: "Pretendard", "Noto Sans KR", sans-serif;
+      }
+
+      .lobby {
+        max-width: 980px;
+        margin: 0 auto;
+        padding: 28px 20px 40px;
+      }
+
+      .hero {
+        padding: 18px;
+        border: 1px solid var(--line);
+        border-radius: 14px;
+        background: rgba(20, 25, 33, 0.8);
+        backdrop-filter: blur(6px);
+      }
+
+      .hero h1 {
+        margin: 0;
+        font-size: 1.6rem;
+      }
+
+      .hero p {
+        margin: 10px 0 0;
+        color: var(--muted);
+      }
+
+      .games {
+        margin-top: 18px;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+        gap: 14px;
+      }
+
+      .game-card {
+        border: 1px solid var(--line);
+        border-radius: 12px;
+        padding: 16px;
+        background: linear-gradient(155deg, var(--panel), var(--panel-2));
+      }
+
+      .game-card h2 {
+        margin: 0;
+        font-size: 1.08rem;
+      }
+
+      .game-card p {
+        margin: 10px 0;
+        color: var(--muted);
+        min-height: 56px;
+      }
+
+      .badge {
+        display: inline-block;
+        margin-bottom: 8px;
+        padding: 4px 9px;
+        border-radius: 999px;
+        font-size: 0.8rem;
+        border: 1px solid #5f6f84;
+        color: #cfdae8;
+      }
+
+      .badge.ready {
+        border-color: #7c6641;
+        color: var(--accent);
+      }
+
+      .enter-btn {
+        display: inline-block;
+        text-decoration: none;
+        color: var(--text);
+        border: 1px solid #786240;
+        background: #59492f;
+        border-radius: 8px;
+        padding: 8px 12px;
+      }
+
+      .enter-btn:hover {
+        border-color: #c8a86f;
+      }
+
+      .disabled {
+        border: 1px solid #4d596b;
+        border-radius: 8px;
+        padding: 8px 12px;
+        color: #91a0b5;
+        background: #1c232c;
+      }
+
+      @media (max-width: 680px) {
+        .lobby {
+          padding: 18px 14px 28px;
+        }
+      }
+    </style>
   </head>
   <body>
-    <div class="app-shell">
-      <header class="topbar">
-        <h1>사건 17호</h1>
-        <div class="meta">
-          <span id="timer">남은 시간: 15:00</span>
-          <span id="hint-count">힌트 사용: 0</span>
-          <button id="audio-toggle" type="button">사운드: ON</button>
-        </div>
-      </header>
+    <main class="lobby">
+      <section class="hero">
+        <h1>방탈출 게임 로비</h1>
+        <p>운영 중인 게임을 선택해 입장하세요. 게임은 계속 추가될 예정입니다.</p>
+      </section>
 
-      <main id="app" class="scene-root"></main>
-    </div>
+      <section class="games">
+        <article class="game-card">
+          <span class="badge ready">플레이 가능</span>
+          <h2>사건 17호</h2>
+          <p>연쇄 단서를 복구해 최종 잠금을 해제하는 추리형 방탈출 게임.</p>
+          <a class="enter-btn" href="./case17.html">게임 입장</a>
+        </article>
 
-    <div id="modal" class="modal hidden" aria-hidden="true">
-      <div id="modal-content" class="modal-card"></div>
-    </div>
-
-    <script src="./js/state.js"></script>
-    <script src="./js/puzzles.js"></script>
-    <script src="./js/audio.js"></script>
-    <script src="./js/scenes.js"></script>
-    <script src="./js/main.js"></script>
+        <article class="game-card">
+          <span class="badge">준비 중</span>
+          <h2>다음 에피소드</h2>
+          <p>새로운 맵과 퍼즐 구성으로 확장되는 시즌 콘텐츠.</p>
+          <button class="disabled" type="button" disabled>곧 공개</button>
+        </article>
+      </section>
+    </main>
   </body>
 </html>

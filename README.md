@@ -23,6 +23,7 @@
 ```text
 .
 ├── index.html
+├── case17.html
 ├── style.css
 ├── js
 │   ├── main.js
@@ -38,6 +39,7 @@
 아래 중 하나로 실행할 수 있습니다.
 
 1. `index.html`을 브라우저에서 직접 열기
+   - 로비 페이지에서 `사건 17호` 선택 시 게임(`case17.html`)으로 이동
 2. 로컬 서버 실행 후 접속
    ```bash
    python3 -m http.server

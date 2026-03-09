@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>사건 17호 - 추리 방탈출</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="app-shell">
+      <header class="topbar">
+        <h1>사건 17호</h1>
+        <div class="meta">
+          <span id="timer">남은 시간: 15:00</span>
+          <span id="hint-count">힌트 사용: 0</span>
+          <button id="audio-toggle" type="button">사운드: ON</button>
+        </div>
+      </header>
+
+      <main id="app" class="scene-root"></main>
+    </div>
+
+    <div id="modal" class="modal hidden" aria-hidden="true">
+      <div id="modal-content" class="modal-card"></div>
+    </div>
+
+    <script src="./js/state.js"></script>
+    <script src="./js/puzzles.js"></script>
+    <script src="./js/audio.js"></script>
+    <script src="./js/scenes.js"></script>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
